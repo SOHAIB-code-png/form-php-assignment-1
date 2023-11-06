@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'JetBrains Mono';
+    background-color: #4a7ba6;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    width: 20%;
+    padding: 2vw;
+    border: 5px solid azure;
+    border-radius: 2vw;
+    row-gap: 0.4vw;
+    box-shadow: 2px 2px 1px #0b497e 
+}
+
+label {
+    font-weight: 600;
+    color: #dcefff;
+}
+
+select {
+    background-color: rgb(81, 157, 255);
+    height: 2vw;
+    border-color: #dcefff;
+}
+
+.buttons_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_submit {
+    border-radius: 0.5vw;
+    height: 2vw;
+    width: 5vw;
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.button_reset {
+    border-radius: 0.5vw;
+    height: 2vw;
+    width: 5vw;
+    background-color: #fff12f;
+    border-color: #fff12f;
+}
+
+.buttons_bar a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(250, 255, 164);
+}
+
+input {
+    border-color: #dcefff;
+    background-color: rgb(225, 238, 255)
+}
