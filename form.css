@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
-    font-family: 'JetBrains Mono';
-    background-color: #4a7ba6;
+    font-family: 'Poppins';
+    background-color: white;
 }
 
 h2 {
     text-align: center;
-    color: azure;
+    color: black;
 }
 
 .container {
@@ -19,10 +19,10 @@ form {
     display: grid;
     width: 20%;
     padding: 2vw;
-    border: 5px solid azure;
+    border: 5px solid black;
     border-radius: 2vw;
     row-gap: 0.4vw;
-    box-shadow: 2px 2px 1px #0b497e 
+    box-shadow: 2px 2px 1px black 
 }
 
 label {
@@ -31,9 +31,9 @@ label {
 }
 
 select {
-    background-color: rgb(81, 157, 255);
+    background-color: rgb(212, 212, 212);
     height: 2vw;
-    border-color: #dcefff;
+    border-color: gray;
 }
 
 .buttons_bar {
@@ -66,5 +66,5 @@ select {
 
 input {
     border-color: #dcefff;
-    background-color: rgb(225, 238, 255)
+    background-color: azure;
 }
